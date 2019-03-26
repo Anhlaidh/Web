@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;    
+
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    background-color: #002b54;
+    height: 32px;
+
+
+}
+
+.top p{
+    display: inline;
+    color: #e5e3e3;
+    font-size: 14px;
+    
+    
+}
+.viewer{
+    position: absolute;
+    left: 10%;
+    height: 32px;
+    line-height: 32px;
+    
+    
+}
+.door{
+    position: absolute;
+    right: 10%;
+    height: 30px;
+    line-height: 32px;
+}
+
+.logo
+{
+    width: 100%;
+    height: 117px;
+    background-color: #024585;
+}
+.logo img{
+    position: relative;
+    top: 20%;
+    left: 15%;
+
+}
+.nav{
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    width: 110px;
+    height: 40px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+}
+.guide{
+    height: 460px;
+    width: 100%;
+    background: rgb(255, 148, 148);
+}
+.content{
+    width: 100%;
+    
+    padding-top: 36px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.conleft {
+    margin-right: 10px;
+    width: 40%;
+    height: 510px;;
+    background-color: aquamarine;
+
+}.conright
+{
+    margin-left: 10px;
+    width: 40%;
+    height: 510px;;
+    background-color: aquamarine;
+
+}
